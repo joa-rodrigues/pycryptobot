@@ -199,6 +199,11 @@ def test_should_calculate_addSMA_20():
     assert_frame_equal(actual, expected)
 
 
+def test_should_calculate_addEMA_8():
+    """
+      Adds the Exponential Moving Average (EMA) the DateFrame :
+    """
+
 def calculate_mean_on_range(start, end, list) -> float64:
     """
     Calculates de mean on a range of values
